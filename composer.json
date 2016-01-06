@@ -1,13 +1,13 @@
 {
-    "name": "unitedasian/session-bundle",
+    "name": "unitedasian/propel-session-bundle",
     "description": "Symfony bundle to manage sessions",
     "keywords": ["symfony", "session", "bundle"],
-    "homepage": "https://github.com/unitedasian/session-bundle",
+    "homepage": "https://github.com/unitedasian/propel-session-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Unied Asian Management Limited",
+            "name": "United Asian Management Limited",
             "email": "info@united-asian.com",
             "homepage": "http://www.united-asian.com"
         }
