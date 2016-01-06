@@ -1,5 +1,5 @@
 {
-    "name": "uniedasian/session-bundle",
+    "name": "unitedasian/session-bundle",
     "description": "Symfony bundle to manage sessions",
     "keywords": ["symfony", "session", "bundle"],
     "homepage": "https://github.com/unitedasian/session-bundle",
