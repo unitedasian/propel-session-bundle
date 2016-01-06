@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database name="default" namespace="UAM\Bundle\SessionBundle\Propel" defaultIdMethod="native">
+	<table name="sessions" phpName="Session" idMethod="native">
+		<column name="sess_id"       phpName="Id" type="varchar" size="128" primaryKey="true" required="true" defaultValue="" />
+		<column name="sess_data"     phpName="Data" type="longvarchar" required="true" />
+		<column name="sess_time"     phpName="Time" type="integer" required="true" />
+		<column name="sess_lifetime" phpName="Lifetime" type="integer" required="true" />
+	</table>
+</database>

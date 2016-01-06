@@ -1,0 +1,28 @@
+{
+    "name": "uniedasian/session-bundle",
+    "description": "Symfony bundle to manage sessions",
+    "keywords": ["symfony", "session", "bundle"],
+    "homepage": "https://github.com/unitedasian/session-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Unied Asian Management Limited",
+            "email": "info@united-asian.com",
+            "homepage": "http://www.united-asian.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": "~2.0",
+        "propel/propel-bundle": "~1.4"
+    },
+    "autoload": {
+        "psr-4": { "UAM\\Bundle\\SessionBundle\\": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
