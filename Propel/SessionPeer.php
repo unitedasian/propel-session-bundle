@@ -1,8 +1,8 @@
 <?php
 
-namespace UAM\Bundle\SessionBundle\Propel;
+namespace UAM\Bundle\PropelSessionBundle\Propel;
 
-use UAM\Bundle\SessionBundle\Propel\om\BaseSessionPeer;
+use UAM\Bundle\PropelSessionBundle\Propel\om\BaseSessionPeer;
 
 class SessionPeer extends BaseSessionPeer
 {

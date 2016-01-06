@@ -1,8 +1,8 @@
 <?php
 
-namespace UAM\Bundle\SessionBundle\Propel;
+namespace UAM\Bundle\PropelSessionBundle\Propel;
 
-use UAM\Bundle\SessionBundle\Propel\om\BaseSessionQuery;
+use UAM\Bundle\PropelSessionBundle\Propel\om\BaseSessionQuery;
 
 class SessionQuery extends BaseSessionQuery
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace UAM\Bundle\SessionBundle\DependencyInjection;
+namespace UAM\Bundle\PropelSessionBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
-class CPTermsExtension extends Extension
+class PropelSessionExtension extends Extension
 {
     /**
      * {@inheritDoc}

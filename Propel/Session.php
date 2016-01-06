@@ -1,8 +1,8 @@
 <?php
 
-namespace UAM\Bundle\SessionBundle\Propel;
+namespace UAM\Bundle\PropelSessionBundle\Propel;
 
-use UAM\Bundle\SessionBundle\Propel\om\BaseSession;
+use UAM\Bundle\PropelSessionBundle\Propel\om\BaseSession;
 
 class Session extends BaseSession
 {
