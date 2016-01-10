@@ -5,8 +5,8 @@ UAMPropelSessionBundle is an opinitionated symfony bundle that provides a conven
 
 The motivation for this bundle was an issue of inconvenience:
 
-* Configurating sessions in multiple symfony apps is repetitive, yet so standardized as not worth the effort each time.
-* The session table does not reall yneed a schem nor Propel OM classes in the app; yet if not present, the `propel:migration:generate-diff` will attempt to remove it each time it is run.
+* Configuring sessions in multiple symfony apps is repetitive, yet so standardized as not worth the effort each time.
+* The session table does not really need a schema nor Propel OM classes in the app; yet if not present, the `propel:migration:generate-diff` will attempt to remove it each time it is run.
 
 This bundle is highly opinionated: 
 
