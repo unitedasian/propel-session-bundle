@@ -36,7 +36,7 @@ Add the bundle to your app's `composer.json` file requirements:
 	}
 ```
 
-Enable the bundlein hyour app's kernel:
+Enable the bundle in your app's kernel:
 
 ```php
 # app/AppKernel.php
@@ -55,3 +55,13 @@ Enable the bundlein hyour app's kernel:
 ```
 
 Create the `sessions` table: There are plenty of ways to do so via a propel command, such as `propel:sql:build`; the easiest method is probably to run `propel:migration:generate-diff` and then `propel:migration:migrate`.
+
+Update your app's configuration to use the session handler service provided by the bundle:
+
+```yaml
+# app/config/config.yml
+
+framework:
+    session:
+        handler_id: unitedasian.session.handler.pdo
+```
