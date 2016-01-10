@@ -10,13 +10,13 @@ The motivation for this bundle was an issue of inconvenience:
 
 This bundle is highly opinionated: 
 
-It provides no latitude for customization; if the settings it provides are unsuitable for your app, then customize the session setting the usual way in your app's configuration. 
+It provides no latitude for customization; if the settings it provides are unsuitable for your app, then customize the session settings the usual way in your app's configuration. 
 
 This bundle also deliberately ignores basic principles of software design, and assumes the existence of certain named container parameters; if these parameters are absent, the app may fail cryptically. On the other hand, these parameters are usually present in any symfony apps; changin their names in the app to match the names exeepcted by the bundle presents little difficulty.
 
-This bundle uses the default table name for sessions (`sessions`) and default column names (`sess_id`, `sess_data`, `sess_time`, `sess_ligfetime`). 
+This bundle uses the default table name for sessions (`sessions`) and default column names (`sess_id`, `sess_data`, `sess_time`, `sess_lifetime`). 
 
-The parameters it requires are:
+The following parameters should be defined somewhere in the app:
 
 * `database_host`
 * `database_port`
@@ -31,7 +31,7 @@ Add the bundle to your app's `composer.json` file requirements:
 
 ```json
     require: {
-    	"unitedasian/propel-session-bundle': "~1.0",
+    	"unitedasian/propel-session-bundle": "~1.0",
     	...
 	}
 ```
