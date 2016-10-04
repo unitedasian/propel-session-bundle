@@ -15,7 +15,7 @@
     "require": {
         "php": ">=5.3.3",
         "symfony/framework-bundle": "~2.0",
-        "propel/propel-bundle": "^1.4"
+        "propel/propel-bundle": "^1.4|^2.0@dev"
     },
     "autoload": {
         "psr-4": { "UAM\\Bundle\\PropelSessionBundle\\": "" }
